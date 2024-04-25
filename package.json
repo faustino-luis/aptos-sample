@@ -1,0 +1,11 @@
+{
+  "name": "aptos-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-f:faustino-luis/aptos-sample.git",
+  "author": "Anh Hoang Nguyen <hoangkianh31592@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.13.1"
+  }
+}
