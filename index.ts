@@ -7,3 +7,8 @@ const transaction = await aptos.transferCoinTransaction({
   recipient: bob.accountAddress,
   amount: 100,
 })
+
+const pendingTransaction = await aptos.signAndSubmitTransaction({
+  signer: alice,
+  transaction,
+});
