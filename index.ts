@@ -12,3 +12,5 @@ const pendingTransaction = await aptos.signAndSubmitTransaction({
   signer: alice,
   transaction,
 });
+
+const alice: Account = Account.generate();
