@@ -38,3 +38,8 @@ const senderAuthenticator = aptos.transaction.sign({
   signer: alice,
   transaction,
 });
+const pendingTransaction = await aptos.transaction.submit.simple({
+  transaction,
+  senderAuthenticator,
+});
+
